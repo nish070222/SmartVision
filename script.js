@@ -36,7 +36,7 @@ try {
     // Setup webcam
     const flip = true;
 
-    webcam = new tmImage.Webcam(400, 300, flip);
+  webcam = new tmImage.Webcam(600, 450, flip);
 
     await webcam.setup();
     await webcam.play();
